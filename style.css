@@ -59,19 +59,10 @@ h1{
  
 }
 
-.fotosinicio{
-display: flex;
-justify-content: space-around;
 
-}
-.boton-inicio{
-    width: 90%;
-    text-transform: uppercase;
-    margin-bottom: 700px;
-  padding: 10px;
-  background-color: #f7f6f6;
-  color: #802397;
-}
+
+
+
 .foto-uno{
   margin-top: 6rem;
 }
@@ -177,6 +168,8 @@ font-size: 2rem;
   width: 100%;
   text-transform: uppercase;
 margin-bottom: 10px;
+color: #0a0a0a;
+background-color: white;
 }
 
 
@@ -191,12 +184,28 @@ margin-bottom: 10px;
 }
 
 
-.fotoiniciodos{
-  margin-left: 200px;
-  max-width: 200px;
-  letter-spacing: 2rem;
-  margin-bottom: 35rem;
-  }
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 6px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "imagen1 imagen1 imagen1 imagen1"
+    "imagen2 imagen2 imagen2 imagen2";
+}
+
+.imagen1 { grid-area: imagen1; }
+
+.imagen2 { grid-area: imagen2; }
+
+
+
+
+
+
+  
   .formulario{
     margin: 200px 0 200px 700px;
     width: 400px;
@@ -267,34 +276,42 @@ input[type="submit"]{
   color: #189dd1;
   text-decoration: none;
 }
-.fotosdescuentos{
- margin-top: 12rem;
- display: flex;
- justify-content: space-evenly;
- }
- .botondescuento{
-  margin: 5px 0 5px 80px;
-  width: 1520px;
-  text-transform: uppercase;
-  color: #0a0a0a;
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 0px;
+  grid-auto-flow: row;
+ 
+  justify-items: center;
+  grid-template-areas:
+    "imagen1 imagen1 imagen1"
+    "imagen2 imagen2 imagen2"
+    "imagen3 imagen3 imagen3";
+}
+
+.imagen1 { grid-area: imagen1; }
+
+.imagen2 { grid-area: imagen2; }
+
+ 
   
-  
-  }
   .imagenesdos{
     display: flex;
   justify-content: space-evenly;
-  margin-top: 3rem;
+  margin-left: 18rem;
+  
   }
-  .titulodescuento{
-    text-align: center;
-    color: #1b354b;
-    text-decoration: underline;
-    margin-top: 9rem;
-}
-.titulo-descuento{
+ 
+    
+
+.titulodescuento{
   text-align: center;
-  color: #ff0000;
+  color: #2b206d;
   text-decoration: underline;
+  margin: 110px 0  50px 0; 
+ 
 }
 .nosotros-titulo{
   text-align: center;
@@ -338,5 +355,9 @@ border-radius: 12px;
   text-transform: uppercase;
   color: #2832c8;
 }
+.container{
+  margin-bottom: 50px;
+}
+
 
 
