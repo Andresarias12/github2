@@ -9,10 +9,11 @@ body {
   font-family: Arial, Helvetica;
   background-color: #e8e8e8;
 }
-body header .imagenpr {
+
+header .imagenpr {
   margin: 60px auto auto 60px;
 }
-body header .menu {
+header .menu {
   list-style: none;
   padding: 0%;
   background-color: #092327;
@@ -22,43 +23,44 @@ body header .menu {
   text-align: center;
   font-size: 17px;
 }
-body header .menu li {
+header .menu li {
   display: inline-block;
   text-align: center;
 }
-body header .menu li a {
+header .menu li a {
   text-decoration: none;
   color: #ffffff;
   padding: 20px;
   display: block;
 }
-body header .menu li a:hover {
+header .menu li a:hover {
   color: rgb(252, 249, 249);
   background-color: rgb(80, 8, 173);
 }
-body main .tituloinicio {
+
+main .tituloinicio {
   padding: 50px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: line-through;
   text-decoration-color: #d80846;
 }
-body main .carousel {
+main .carousel {
   width: 170vh;
 }
-body main .titulo-dos {
+main .titulo-dos {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
   color: #680a0a;
 }
-body main h1 {
+main h1 {
   color: #121213;
   list-style: none;
   margin-top: 50px;
   font-family: "Lemon", serif;
 }
-body main .container1 {
+main .container1 {
   background-color: #c9c6c6;
   padding: 100px;
   display: grid;
@@ -71,44 +73,44 @@ body main .container1 {
   margin: 2rem 9rem 2rem 11rem;
   grid-template-areas: "imagen1 imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3 imagen3" "imagen4 imagen4 imagen4 imagen4";
 }
-body main .container1 .imagen1 {
+main .container1 .imagen1 {
   grid-area: imagen1;
 }
-body main .container1 .imagen2 {
+main .container1 .imagen2 {
   grid-area: imagen2;
 }
-body main .container1 .imagen3 {
+main .container1 .imagen3 {
   grid-area: imagen3;
 }
-body main .container1 .imagen4 {
+main .container1 .imagen4 {
   grid-area: imagen4;
 }
-body main .botoninicio {
+main .botoninicio {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-body main .formulario {
+main .formulario {
   margin: 200px 0 200px 700px;
   width: 400px;
   background: #e8e8e8;
   border-radius: 10%;
 }
-body main .formulario h1 {
+main .formulario h1 {
   text-align: center;
   padding: 0 0 21px 0;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #ffffff;
 }
-body main .formulario form {
+main .formulario form {
   padding: 0 40px;
   box-sizing: border-box;
 }
-body main .formulario form .username {
+main .formulario form .username {
   position: relative;
   border-bottom: 2px solid #adadad;
   margin: 30px 0;
 }
-body main .formulario form .username label {
+main .formulario form .username label {
   position: absolute;
   top: 50%;
   left: 5px;
@@ -118,7 +120,7 @@ body main .formulario form .username label {
   pointer-events: none;
   transition: 1s;
 }
-body main .formulario form .username input {
+main .formulario form .username input {
   width: 100%;
   padding: 0 5px;
   height: 40px;
@@ -127,12 +129,12 @@ body main .formulario form .username input {
   background: none;
   outline: none;
 }
-body main .formulario form .username input:focus ~ label,
-body main .formulario form .username input:focus ~ label {
+main .formulario form .username input:focus ~ label,
+main .formulario form .username input:focus ~ label {
   top: -5px;
   color: #0d0d0e;
 }
-body main .formulario form input[type=submit] {
+main .formulario form input[type=submit] {
   width: 100%;
   height: 50px;
   border: 1px solid;
@@ -142,28 +144,28 @@ body main .formulario form input[type=submit] {
   color: #e8e8e8;
   outline: none;
 }
-body main .formulario form .recordar {
+main .formulario form .recordar {
   margin: -5px 0 20px 5px;
   color: #189dd1;
   cursor: pointer;
 }
-body main .formulario form .registro {
+main .formulario form .registro {
   color: #0d0d0e;
   margin: 30px 0;
   text-align: center;
   font-size: 16px;
 }
-body main .formulario form .registro a {
+main .formulario form .registro a {
   color: #189dd1;
   text-decoration: none;
 }
-body main .titulodescuento {
+main .titulodescuento {
   text-align: center;
   color: #2b206d;
   text-decoration: underline;
   margin: 110px 0 50px 0;
 }
-body main .container {
+main .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -174,98 +176,98 @@ body main .container {
   justify-items: center;
   grid-template-areas: "imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3";
 }
-body main .container .imagen1 {
+main .container .imagen1 {
   grid-area: imagen1;
   margin-top: 50px;
 }
-body main .container .imagen2 {
+main .container .imagen2 {
   grid-area: imagen2;
 }
-body main .container .imagen3 {
+main .container .imagen3 {
   grid-area: imagen3;
 }
-body main .container .subtitulodescu {
+main .container .subtitulodescu {
   background-color: rgb(44, 44, 44);
   margin: 0 0px 350px 100px;
   justify-content: center;
 }
-body main .container .subtitulodescu h2 {
+main .container .subtitulodescu h2 {
   color: red;
   text-transform: uppercase;
   text-decoration: underline;
 }
-body main .container .subtitulodescu h3 {
+main .container .subtitulodescu h3 {
   color: #f5f6f7;
 }
-body main .container .subtitulodescu .boton1 {
+main .container .subtitulodescu .boton1 {
   background-color: #25c8dd;
   width: 13rem;
   padding: 5px;
 }
-body main .container .subtitulodescu .boton1:hover {
+main .container .subtitulodescu .boton1:hover {
   background-color: black;
   color: white;
 }
-body main .container .subtitulodescu .boton2 {
+main .container .subtitulodescu .boton2 {
   background-color: white;
   width: 13rem;
   padding: 5px;
 }
-body main .container .subtitulodescu .boton2:hover {
+main .container .subtitulodescu .boton2:hover {
   background-color: black;
   color: white;
 }
-body main .nosotros-titulo {
+main .nosotros-titulo {
   text-align: center;
   margin-top: 10rem;
   text-transform: uppercase;
   color: #189dd1;
   text-decoration: underline;
 }
-body main .sucursales {
+main .sucursales {
   display: flex;
   justify-content: space-evenly;
   margin-top: 13rem;
 }
-body main .sucursales .sucursal-primera {
-  background-color: rgba(23, 23, 23, 0.2274509804);
+main .sucursales .sucursal-primera {
+  background-color: #636262;
   border-radius: 12px;
 }
-body main .sucursales .sucursal-primera .imagen-sucursal {
+main .sucursales .sucursal-primera .imagen-sucursal {
   margin: 15px 70px 0 70px;
 }
-body main .sucursales .sucursal-primera .formu-sucursal {
+main .sucursales .sucursal-primera .formu-sucursal {
   font-size: 19px;
 }
-body main .sucursales .sucursal-segunda {
-  background-color: rgba(23, 23, 23, 0.2274509804);
+main .sucursales .sucursal-segunda {
+  background-color: #636262;
   border-radius: 12px;
 }
-body main .sucursales .sucursal-segunda .imagen-sucursal {
+main .sucursales .sucursal-segunda .imagen-sucursal {
   margin: 15px 70px 0 70px;
 }
-body main .sucursales .sucursal-segunda .formu-sucursal {
+main .sucursales .sucursal-segunda .formu-sucursal {
   font-size: 19px;
 }
-body main .sucursales .sucursal-tercera {
-  background-color: rgba(23, 23, 23, 0.2274509804);
+main .sucursales .sucursal-tercera {
+  background-color: #636262;
   border-radius: 12px;
 }
-body main .sucursales .sucursal-tercera .imagen-sucursalt {
+main .sucursales .sucursal-tercera .imagen-sucursalt {
   margin: 15px 40px 0 40px;
 }
-body main .sucursales .sucursal-tercera .formu-sucursal {
+main .sucursales .sucursal-tercera .formu-sucursal {
   font-size: 19px;
 }
-body main .list {
+main .list {
   margin-top: 9rem;
   text-transform: uppercase;
   color: #2832c8;
 }
-body main .mapa {
+main .mapa {
   margin-top: 1rem;
 }
-body main .nombreprodu {
+main .nombreprodu {
   color: #25c8dd;
   text-align: center;
   text-transform: uppercase;
@@ -273,21 +275,22 @@ body main .nombreprodu {
   margin: 160px 100px auto 100px;
   padding: 12px;
 }
-body main .losproductos {
+main .losproductos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 150px;
 }
-body main .losproductos .card {
+main .losproductos .card {
   margin-bottom: 70px;
   background-color: #cdd2d4;
 }
-body main .losproductos .card .card-title {
+main .losproductos .card .card-title {
   text-transform: uppercase;
   color: #0c668a;
 }
-body .footer {
+
+.footer {
   background-color: #0f0f0f;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -295,6 +298,87 @@ body .footer {
   color: #e8e8e8;
   font-size: 1rem;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel {
+    width: 1150px;
+  }
+  .losproductos {
+    width: 800px;
+  }
+  .card {
+    margin-bottom: 50px;
+  }
+  .formulario {
+    justify-content: center;
+    margin: auto;
+  }
+  .menu {
+    justify-content: center;
+  }
+  .subtitulodescu {
+    width: 60rem;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    margin-left: 70px;
+    grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3";
+  }
+  .container1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr;
+    justify-content: center;
+    background-color: rgb(207, 204, 204);
+    margin: 15px 15px 15px 15px;
+    grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3" "imagen3" "imagen4" "imagen4" "imagen4" "imagen4";
+  }
+  .carousel {
+    width: 400px;
+  }
+  .imagen2 {
+    margin-top: 8rem;
+  }
+  .imagenpr {
+    margin: 0 10px 10px 0;
+  }
+  .subtitulodescu {
+    margin: 5px 50px 200px 10px;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+  .nombreprodu {
+    width: 23rem;
+    margin: 160px auto auto auto;
+    background-color: #0a0a0a;
+    color: white;
+  }
+  .formulario {
+    margin: auto;
+  }
+  .sucursales {
+    display: contents;
+    display: block;
+  }
+  .sucursal-primera {
+    margin-bottom: 40px;
+  }
+  .sucursal-segunda {
+    margin-bottom: 40px;
+  }
+  .sucursal-tercera {
+    margin-bottom: 40px;
+  }
+  .losproductos {
+    display: block;
+    margin: 80px auto 50px 100px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
