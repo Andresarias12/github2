@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 body {
+   
     background-image: url(../fotos2/fondo\ pagina\ web\ 3.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial, Helvetica;
     background-color: #e8e8e8;
     }
