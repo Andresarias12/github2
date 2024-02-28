@@ -351,13 +351,15 @@ main .losproductos .card .card-title {
     margin: 5px 50px 200px 10px;
   }
   .card {
-    margin-bottom: 40px;
+    margin: 15px 15px 15px 15px;
+    display: inline-block
   }
   .nombreprodu {
     width: 23rem;
     margin: 160px auto auto auto;
     background-color: #0a0a0a;
     color: white;
+    
   }
   .formulario {
     margin: auto;
