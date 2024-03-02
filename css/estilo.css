@@ -6,6 +6,10 @@
 
 body {
   background-image: url(../fotos2/fondo\ pagina\ web\ 3.avif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, Helvetica;
   background-color: #e8e8e8;
 }
@@ -38,29 +42,33 @@ header .menu li a:hover {
   background-color: rgb(80, 8, 173);
 }
 
-main .tituloinicio {
+.tituloinicio {
   padding: 50px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: line-through;
   text-decoration-color: #d80846;
 }
-main .carousel {
+
+.carousel {
   width: 170vh;
 }
-main .titulo-dos {
+
+.titulo-dos {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
   color: #680a0a;
 }
-main h1 {
+
+h1 {
   color: #121213;
   list-style: none;
   margin-top: 50px;
   font-family: "Lemon", serif;
 }
-main .container1 {
+
+.container1 {
   background-color: #c9c6c6;
   padding: 100px;
   display: grid;
@@ -73,44 +81,46 @@ main .container1 {
   margin: 2rem 9rem 2rem 11rem;
   grid-template-areas: "imagen1 imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3 imagen3" "imagen4 imagen4 imagen4 imagen4";
 }
-main .container1 .imagen1 {
+.container1 .imagen1 {
   grid-area: imagen1;
 }
-main .container1 .imagen2 {
+.container1 .imagen2 {
   grid-area: imagen2;
 }
-main .container1 .imagen3 {
+.container1 .imagen3 {
   grid-area: imagen3;
 }
-main .container1 .imagen4 {
+.container1 .imagen4 {
   grid-area: imagen4;
 }
-main .botoninicio {
+
+.botoninicio {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-main .formulario {
+
+.formulario {
   margin: 200px 0 200px 700px;
   width: 400px;
   background: #e8e8e8;
   border-radius: 10%;
 }
-main .formulario h1 {
+.formulario h1 {
   text-align: center;
   padding: 0 0 21px 0;
   border-bottom: 1px solid #ffffff;
 }
-main .formulario form {
+.formulario form {
   padding: 0 40px;
   box-sizing: border-box;
 }
-main .formulario form .username {
+.formulario form .username {
   position: relative;
   border-bottom: 2px solid #adadad;
   margin: 30px 0;
 }
-main .formulario form .username label {
+.formulario form .username label {
   position: absolute;
   top: 50%;
   left: 5px;
@@ -120,7 +130,7 @@ main .formulario form .username label {
   pointer-events: none;
   transition: 1s;
 }
-main .formulario form .username input {
+.formulario form .username input {
   width: 100%;
   padding: 0 5px;
   height: 40px;
@@ -129,12 +139,12 @@ main .formulario form .username input {
   background: none;
   outline: none;
 }
-main .formulario form .username input:focus ~ label,
-main .formulario form .username input:focus ~ label {
+.formulario form .username input:focus ~ label,
+.formulario form .username input:focus ~ label {
   top: -5px;
   color: #0d0d0e;
 }
-main .formulario form input[type=submit] {
+.formulario form input[type=submit] {
   width: 100%;
   height: 50px;
   border: 1px solid;
@@ -144,28 +154,30 @@ main .formulario form input[type=submit] {
   color: #e8e8e8;
   outline: none;
 }
-main .formulario form .recordar {
+.formulario form .recordar {
   margin: -5px 0 20px 5px;
   color: #189dd1;
   cursor: pointer;
 }
-main .formulario form .registro {
+.formulario form .registro {
   color: #0d0d0e;
   margin: 30px 0;
   text-align: center;
   font-size: 16px;
 }
-main .formulario form .registro a {
+.formulario form .registro a {
   color: #189dd1;
   text-decoration: none;
 }
-main .titulodescuento {
+
+.titulodescuento {
   text-align: center;
   color: #2b206d;
   text-decoration: underline;
   margin: 110px 0 50px 0;
 }
-main .container {
+
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -176,98 +188,103 @@ main .container {
   justify-items: center;
   grid-template-areas: "imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3";
 }
-main .container .imagen1 {
+.container .imagen1 {
   grid-area: imagen1;
   margin-top: 50px;
 }
-main .container .imagen2 {
+.container .imagen2 {
   grid-area: imagen2;
 }
-main .container .imagen3 {
+.container .imagen3 {
   grid-area: imagen3;
 }
-main .container .subtitulodescu {
+.container .subtitulodescu {
   background-color: rgb(44, 44, 44);
   margin: 0 0px 350px 100px;
   justify-content: center;
 }
-main .container .subtitulodescu h2 {
+.container .subtitulodescu h2 {
   color: red;
   text-transform: uppercase;
   text-decoration: underline;
 }
-main .container .subtitulodescu h3 {
+.container .subtitulodescu h3 {
   color: #f5f6f7;
 }
-main .container .subtitulodescu .boton1 {
+.container .subtitulodescu .boton1 {
   background-color: #25c8dd;
   width: 13rem;
   padding: 5px;
 }
-main .container .subtitulodescu .boton1:hover {
+.container .subtitulodescu .boton1:hover {
   background-color: black;
   color: white;
 }
-main .container .subtitulodescu .boton2 {
+.container .subtitulodescu .boton2 {
   background-color: white;
   width: 13rem;
   padding: 5px;
 }
-main .container .subtitulodescu .boton2:hover {
+.container .subtitulodescu .boton2:hover {
   background-color: black;
   color: white;
 }
-main .nosotros-titulo {
+
+.nosotros-titulo {
   text-align: center;
   margin-top: 10rem;
   text-transform: uppercase;
-  color: #189dd1;
+  color: #25c8dd;
   text-decoration: underline;
 }
-main .sucursales {
+
+.sucursales {
   display: flex;
   justify-content: space-evenly;
   margin-top: 13rem;
 }
-main .sucursales .sucursal-primera {
-  background-color: #636262;
+.sucursales .sucursal-primera {
+  background-color: #858383;
   border-radius: 12px;
 }
-main .sucursales .sucursal-primera .imagen-sucursal {
+.sucursales .sucursal-primera .imagen-sucursal {
   margin: 15px 70px 0 70px;
 }
-main .sucursales .sucursal-primera .formu-sucursal {
+.sucursales .sucursal-primera .formu-sucursal {
   font-size: 19px;
 }
-main .sucursales .sucursal-segunda {
-  background-color: #636262;
+.sucursales .sucursal-segunda {
+  background-color: #858383;
   border-radius: 12px;
 }
-main .sucursales .sucursal-segunda .imagen-sucursal {
+.sucursales .sucursal-segunda .imagen-sucursal {
   margin: 15px 70px 0 70px;
 }
-main .sucursales .sucursal-segunda .formu-sucursal {
+.sucursales .sucursal-segunda .formu-sucursal {
   font-size: 19px;
 }
-main .sucursales .sucursal-tercera {
-  background-color: #636262;
+.sucursales .sucursal-tercera {
+  background-color: #858383;
   border-radius: 12px;
 }
-main .sucursales .sucursal-tercera .imagen-sucursalt {
+.sucursales .sucursal-tercera .imagen-sucursalt {
   margin: 15px 40px 0 40px;
 }
-main .sucursales .sucursal-tercera .formu-sucursal {
+.sucursales .sucursal-tercera .formu-sucursal {
   font-size: 19px;
 }
-main .list {
+
+.list {
   margin-top: 9rem;
   text-transform: uppercase;
   color: #2832c8;
 }
-main .mapa {
+
+.mapa {
   margin-top: 1rem;
 }
-main .nombreprodu {
+
+.nombreprodu {
   color: #25c8dd;
   text-align: center;
   text-transform: uppercase;
@@ -275,23 +292,25 @@ main .nombreprodu {
   margin: 160px 100px auto 100px;
   padding: 12px;
 }
-main .losproductos {
+
+.losproductos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 150px;
 }
-main .losproductos .card {
-  margin-bottom: 70px;
+.losproductos .card {
+  margin: auto 10px 70px auto;
   background-color: #cdd2d4;
 }
-main .losproductos .card .card-title {
+.losproductos .card .card-title {
   text-transform: uppercase;
   color: #0c668a;
 }
 
 .footer {
   background-color: #0f0f0f;
+  text-decoration: none;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 30px;
@@ -345,21 +364,19 @@ main .losproductos .card .card-title {
     margin-top: 8rem;
   }
   .imagenpr {
-    margin: 0 10px 10px 0;
+    margin: 0 10px 10px 0 !important;
   }
   .subtitulodescu {
     margin: 5px 50px 200px 10px;
   }
   .card {
-    margin: 15px 15px 15px 15px;
-    display: inline-block
+    margin-bottom: 40px;
   }
   .nombreprodu {
     width: 23rem;
     margin: 160px auto auto auto;
     background-color: #0a0a0a;
     color: white;
-    
   }
   .formulario {
     margin: auto;
