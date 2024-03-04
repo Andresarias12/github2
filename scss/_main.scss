@@ -18,6 +18,9 @@ h1{
   margin-top: 50px;
   font-family: 'Lemon', serif;  
 }
+.carousel{
+    width: 1500px;
+}
 
 .container1{
     background-color: #c9c6c6;
@@ -29,7 +32,7 @@ h1{
     grid-auto-rows: 1fr;
     gap: 50px 10px;
     grid-auto-flow:row;
-    margin: 2rem 9rem 2rem 11rem;
+    margin: 2rem 17rem 2rem 17rem;
     grid-template-areas:
     "imagen1 imagen1 imagen1 imagen1"
     "imagen2 imagen2 imagen2 imagen2"
@@ -41,13 +44,22 @@ h1{
     .iamgen3 { grid-area: imagen3; }
     .iamgen4 { grid-area: imagen4; }
 }
+.iamgen2{
+    margin-top: 80px;
+}
+.iamgen3{
+    margin-top: 80px;
+}
+.iamgen4{
+    margin-top: 80px;
+}
 .botoninicio{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 .formulario{
-    margin: 200px 0 200px 700px;
+    margin: 200px 0 200px 800px;
     width: 400px;
     background: #e8e8e8;
     border-radius: 10%;

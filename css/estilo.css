@@ -64,6 +64,10 @@ h1 {
   font-family: "Lemon", serif;
 }
 
+.carousel {
+  width: 1500px;
+}
+
 .container1 {
   background-color: #c9c6c6;
   padding: 100px;
@@ -74,7 +78,7 @@ h1 {
   grid-auto-rows: 1fr;
   gap: 50px 10px;
   grid-auto-flow: row;
-  margin: 2rem 9rem 2rem 11rem;
+  margin: 2rem 17rem 2rem 17rem;
   grid-template-areas: "imagen1 imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3 imagen3" "imagen4 imagen4 imagen4 imagen4";
 }
 .container1 .iamgen1 {
@@ -88,6 +92,18 @@ h1 {
 }
 .container1 .iamgen4 {
   grid-area: imagen4;
+}
+
+.iamgen2 {
+  margin-top: 80px;
+}
+
+.iamgen3 {
+  margin-top: 80px;
+}
+
+.iamgen4 {
+  margin-top: 80px;
 }
 
 .botoninicio {
@@ -356,7 +372,7 @@ h1 {
     grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3" "imagen3" "imagen4" "imagen4" "imagen4" "imagen4";
   }
   .carousel {
-    width: 450px !important;
+    width: 450px;
   }
   .imagen2 {
     margin-top: 8rem;
