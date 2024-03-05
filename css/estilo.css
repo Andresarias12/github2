@@ -212,7 +212,7 @@ h1 {
 }
 .container .subtitulodescu {
   background-color: rgb(44, 44, 44);
-  margin: 0 0px 350px 100px;
+  margin: auto;
   justify-content: center;
 }
 .container .subtitulodescu h2 {
@@ -333,7 +333,7 @@ h1 {
 
 @media screen and (max-width: 1200px) {
   .carousel {
-    width: 1150px;
+    width: 100%;
   }
   .losproductos {
     width: 800px;
@@ -358,8 +358,7 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
-    margin-left: 70px;
-    display: block;
+    margin-left: 20px;
     justify-content: center;
     grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3";
   }
@@ -372,39 +371,27 @@ h1 {
     grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3" "imagen3" "imagen4" "imagen4" "imagen4" "imagen4";
   }
   .carousel {
-    width: 450px;
-  }
-  .imagen2 {
-    margin-top: 8rem;
-    width: 100px;
-  }
-  .imagen1 {
-    width: 100px;
-  }
-  .imagen3 {
-    width: 100px;
-    margin-bottom: 60px;
-    margin-top: 70px;
+    width: 100%;
   }
   .imagenpr {
     margin: 0 10px 10px 0 !important;
   }
   .subtitulodescu {
     padding: 20px;
-    width: 300px;
+    width: 100%;
     flex-direction: column;
   }
   .card {
-    margin-bottom: 40px;
+    margin: auto;
   }
   .nombreprodu {
     width: 23rem;
     margin: 160px auto auto auto;
     background-color: #0a0a0a;
-    color: white;
+    color: #25c8dd;
   }
   .formulario {
-    margin: auto;
+    width: 100%;
   }
   .sucursales {
     display: contents;
@@ -422,10 +409,14 @@ h1 {
   .losproductos {
     display: block;
     width: 300px;
-    margin: 80px 10px 50px 100px;
+    margin: auto;
+    margin-top: 50px;
   }
   .iamgen2 {
     margin-top: 80px;
+  }
+  .mapa {
+    width: 100%;
   }
 }
 
