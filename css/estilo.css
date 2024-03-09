@@ -42,7 +42,7 @@ header .menu li a:hover {
   background-color: rgb(80, 8, 173);
 }
 
-.tituloinicio {
+main .tituloinicio {
   padding: 50px;
   text-align: center;
   text-transform: uppercase;
@@ -64,13 +64,8 @@ h1 {
   font-family: "Lemon", serif;
 }
 
-.carousel {
-  width: 1500px;
-}
-
 .container1 {
   background-color: #c9c6c6;
-  padding: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
@@ -78,32 +73,33 @@ h1 {
   grid-auto-rows: 1fr;
   gap: 50px 10px;
   grid-auto-flow: row;
-  margin: 2rem 17rem 2rem 17rem;
+  margin: 3rem 7rem 3rem 7rem;
   grid-template-areas: "imagen1 imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3 imagen3" "imagen4 imagen4 imagen4 imagen4";
 }
 .container1 .iamgen1 {
   grid-area: imagen1;
+  margin: 100px;
+}
+.container1 .iamgen1 .texto {
+  text-align: center;
+  color: #2b206d;
+  margin-top: 100px;
 }
 .container1 .iamgen2 {
   grid-area: imagen2;
+  margin: 100px;
 }
 .container1 .iamgen3 {
   grid-area: imagen3;
+  margin: 100px;
 }
 .container1 .iamgen4 {
   grid-area: imagen4;
+  margin: 100px;
 }
 
-.iamgen2 {
-  margin-top: 80px;
-}
-
-.iamgen3 {
-  margin-top: 80px;
-}
-
-.iamgen4 {
-  margin-top: 80px;
+.carousel {
+  width: 1500px;
 }
 
 .botoninicio {
@@ -189,55 +185,47 @@ h1 {
   margin: 110px 0 50px 0;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 70px 10px;
-  grid-auto-flow: row;
-  justify-items: center;
-  grid-template-areas: "imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3";
-}
-.container .imagen1 {
+.imagen1 {
   grid-area: imagen1;
   margin-top: 50px;
 }
-.container .imagen2 {
+
+.imagen2 {
   grid-area: imagen2;
 }
-.container .imagen3 {
+
+.imagen3 {
   grid-area: imagen3;
 }
-.container .subtitulodescu {
+
+.subtitulodescu {
   background-color: rgb(44, 44, 44);
   margin: auto;
   justify-content: center;
 }
-.container .subtitulodescu h2 {
+.subtitulodescu h2 {
   color: red;
   text-transform: uppercase;
   text-decoration: underline;
 }
-.container .subtitulodescu h3 {
+.subtitulodescu h3 {
   color: #f5f6f7;
 }
-.container .subtitulodescu .boton1 {
+.subtitulodescu .boton1 {
   background-color: #25c8dd;
   width: 13rem;
   padding: 5px;
 }
-.container .subtitulodescu .boton1:hover {
+.subtitulodescu .boton1:hover {
   background-color: black;
   color: white;
 }
-.container .subtitulodescu .boton2 {
+.subtitulodescu .boton2 {
   background-color: white;
   width: 13rem;
   padding: 5px;
 }
-.container .subtitulodescu .boton2:hover {
+.subtitulodescu .boton2:hover {
   background-color: black;
   color: white;
 }
@@ -365,10 +353,13 @@ h1 {
   .container1 {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr;
-    background-color: #cfcccc;
-    margin: auto 50px 6px 40px;
     justify-content: center;
+    background-color: rgb(207, 204, 204);
+    margin: 15px 15px 15px 15px;
     grid-template-areas: "imagen1" "imagen1" "imagen1" "imagen1" "imagen2" "imagen2" "imagen2" "imagen2" "imagen3" "imagen3" "imagen3" "imagen3" "imagen4" "imagen4" "imagen4" "imagen4";
+  }
+  .iamgen1 {
+    margin: auto;
   }
   .carousel {
     width: 100%;

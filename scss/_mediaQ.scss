@@ -46,12 +46,14 @@
     
   .container1 {  
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr;
-    background-color: #cfcccc;
-    margin: auto 50px 6px 40px;
-    justify-content: center;
-   
-    grid-template-areas: 
+  grid-template-rows: 0.4fr;
+  justify-content: center;
+  background-color: rgb(207, 204, 204);
+  margin: 15px 15px 15px 15px;
+ 
+ 
+ grid-template-areas: 
+ 
     "imagen1" 
     "imagen1" 
     "imagen1" 
@@ -63,11 +65,14 @@
     "imagen3" 
     "imagen3" 
     "imagen3" 
-    "imagen3"  
+    "imagen3"
     "imagen4" 
     "imagen4" 
     "imagen4" 
     "imagen4";
+  }
+  .iamgen1{
+    margin: auto;
   }
     
   .carousel{
