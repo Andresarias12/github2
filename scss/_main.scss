@@ -72,9 +72,14 @@ main
         justify-content: center;
         margin-bottom: 20px;
     }
+    .mainformu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        
+    }
     .formulario{
-        margin: 200px 0 200px 800px;
-        width: 400px;
         background: #e8e8e8;
         border-radius: 10%;
         h1{
@@ -103,7 +108,7 @@ main
                     width: 100%;
                     padding: 0 5px;
                     height: 40px;
-                    font-size: 16 px;
+                    font-size: 16px;
                     border: none;
                     background: none;
                     outline: none;
@@ -126,6 +131,7 @@ main
                 font-size: 16px;
                 color: #e8e8e8;
                 outline: none;
+                cursor: pointer;
             }
             .recordar{
                 margin: -5px 0 20px 5px;
@@ -156,7 +162,33 @@ main
         }
      .imagen2 { grid-area: imagen2;}
      .imagen3 { grid-area: imagen3;}
-    .subtitulodescu{
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 70px 10px;
+        grid-auto-flow: row;
+        justify-items: center;
+        grid-template-areas:
+          "imagen1 imagen1 imagen1"
+          "imagen2 imagen2 imagen2"
+          "imagen3 imagen3 imagen3";
+        .imagen1 {
+          grid-area: imagen1;
+          margin-top: 50px;
+        }
+        .imagen2 {
+          grid-area: imagen2;
+        }
+        .imagen3 {
+          grid-area: imagen3;
+        }
+    }
+    
+     .subtitulodescu{
             background-color: rgb(44, 44, 44);
             margin: auto;
             justify-content: center;

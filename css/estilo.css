@@ -108,9 +108,14 @@ h1 {
   margin-bottom: 20px;
 }
 
+.mainformu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
 .formulario {
-  margin: 200px 0 200px 800px;
-  width: 400px;
   background: #e8e8e8;
   border-radius: 10%;
 }
@@ -142,7 +147,7 @@ h1 {
   width: 100%;
   padding: 0 5px;
   height: 40px;
-  font-size: 16 px;
+  font-size: 16px;
   border: none;
   background: none;
   outline: none;
@@ -161,6 +166,7 @@ h1 {
   font-size: 16px;
   color: #e8e8e8;
   outline: none;
+  cursor: pointer;
 }
 .formulario form .recordar {
   margin: -5px 0 20px 5px;
@@ -195,6 +201,28 @@ h1 {
 }
 
 .imagen3 {
+  grid-area: imagen3;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 70px 10px;
+  grid-auto-flow: row;
+  justify-items: center;
+  grid-template-areas: "imagen1 imagen1 imagen1" "imagen2 imagen2 imagen2" "imagen3 imagen3 imagen3";
+}
+.container .imagen1 {
+  grid-area: imagen1;
+  margin-top: 50px;
+}
+.container .imagen2 {
+  grid-area: imagen2;
+}
+.container .imagen3 {
   grid-area: imagen3;
 }
 
