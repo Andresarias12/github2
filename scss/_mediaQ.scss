@@ -83,6 +83,24 @@
   .imagenpr{
     margin: 0 10px 10px 0 !important;
   }
+  .promos{
+    display: block;
+  }
+  .card-title{
+    font-size: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    color:  #0c668a;
+}
+.card-text1{
+ font-size: 25px;
+
+
+}
+.card-text2{
+  font-size: 25px;
+  
+}
   .subtitulodescu{
      padding: 20px;
      width: 100%;
@@ -100,7 +118,7 @@
   }
   .formulario{
     
-    width: 100%;
+    width: 90%;
   }
   .sucursales{
     display: contents;

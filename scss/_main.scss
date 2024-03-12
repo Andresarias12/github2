@@ -12,12 +12,14 @@ main
         text-transform: uppercase;
         text-decoration: underline;
         color: #680a0a;
+        padding: 20px 10px;
     }
     h1{
-      color: #121213;
+      color:$colorcel;
       list-style: none;
-      margin-top: 50px;
-      font-family: 'Lemon', serif;  
+      
+      font-family: 'Lemon', serif;
+       
     }
     .container1 {
         background-color: #c9c6c6;
@@ -40,23 +42,47 @@ main
           grid-area: imagen1;
          margin: 100px;
          .texto{
-            text-align: center;
-            color: #2b206d;
-            margin-top: 100px;
-         }
+             text-align: center;
+             color: $colorcel;
+             background-color: #0c0c0c;
+             margin-top: 10px;
+
+            }
         }
         .iamgen2 {
          grid-area: imagen2;
         margin: 100px;
+          .texto{
+             text-align: center;
+             color: $colorcel;
+             background-color: #0c0c0c;
+             margin-top: 10px;
+
+            }
         }
         .iamgen3 {
-         grid-area: imagen3;
-        margin: 100px;
+          grid-area: imagen3;
+          margin: 100px;
+          .texto{
+             text-align: center;
+             color: $colorcel;
+             background-color: #0c0c0c;
+             margin-top: 10px;
+
+           }
         }
         .iamgen4 {
-         grid-area: imagen4;
-        margin: 100px;
+          grid-area: imagen4;
+          margin: 100px;
+          .texto{
+             text-align: center;
+             color: $colorcel;
+             background-color: #0c0c0c;
+             margin-top: 10px;
+
+           }
         }
+        
         
           
     }    
@@ -82,6 +108,7 @@ main
     .formulario{
         background: #e8e8e8;
         border-radius: 10%;
+        width: 50%;
         h1{
           text-align: center;
           padding: 0 0 21px 0;
@@ -151,10 +178,12 @@ main
         }
     }
     .titulodescuento{
+        color: #25c8dd;
         text-align: center;
-        color: #2b206d;
-        text-decoration: underline;
-        margin: 110px 0  50px 0; 
+        text-transform: uppercase;
+        background-color: #0d0e0e;
+        margin: 100px;
+        padding: 12px;
     }
     
      .imagen1 { grid-area: imagen1;
@@ -188,10 +217,13 @@ main
         }
     }
     
-     .subtitulodescu{
+    .subtitulodescu{
             background-color: rgb(44, 44, 44);
-            margin: auto;
+            margin: 30px;
             justify-content: center;
+            display: block;
+            padding: 10px 45px;
+
             h2{ 
               color: red;
               text-transform: uppercase;
@@ -220,13 +252,46 @@ main
                 }
             }
     }
+    .promos{
+        display: flex;
+    }
+    .carddes{
+        margin: 10px 30px;
+        justify-content: center;
+        min-height: 50vh;
+        background-color: #cdd2d4 ;
+        
+    }
+    .card-title{
+        font-size: 2rem;
+        padding: 10px;
+        text-transform: uppercase;
+        color:  #0c668a;
+    }
+    .card-text1{
+     font-size: 25px;
+     text-decoration: line-through;
+     font-weight: bold;
+     padding: 5px;
+     
+
+    }
+    .card-text2{
+      font-size: 30px;
+       color: red;
+       font-weight: bold;
+       padding: 5px;
+    }
+    
+   
     
     .nosotros-titulo{
+        color: #25c8dd;
         text-align: center;
-        margin-top: 10rem;
         text-transform: uppercase;
-        color:$colorcel;
-        text-decoration: underline;
+        background-color: #0d0e0e;
+        margin: 160px 100px auto 100px;
+        padding: 12px;
     }
     .sucursales{
         display: flex;
@@ -267,17 +332,21 @@ main
         margin-top: 9rem;
         text-transform: uppercase;
         color: #2832c8;
+        display: flex;
+        justify-content: center;
     }
     .mapa{
-        margin-top: 1rem;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
     }
     .nombreprodu{
         color:$colorcel;
         text-align: center;
         text-transform: uppercase;
-       background-color: #0d0e0e;
+       background-color: #0c0c0c;
        margin: 160px 100px auto 100px;
-       padding: 12px;
+       padding: 10px;
     }
     .losproductos{
         display:flex;

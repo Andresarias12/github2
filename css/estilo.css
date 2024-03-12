@@ -55,12 +55,12 @@ main .tituloinicio {
   text-transform: uppercase;
   text-decoration: underline;
   color: #680a0a;
+  padding: 20px 10px;
 }
 
 h1 {
-  color: #121213;
+  color: #25c8dd;
   list-style: none;
-  margin-top: 50px;
   font-family: "Lemon", serif;
 }
 
@@ -82,20 +82,39 @@ h1 {
 }
 .container1 .iamgen1 .texto {
   text-align: center;
-  color: #2b206d;
-  margin-top: 100px;
+  color: #25c8dd;
+  background-color: #0c0c0c;
+  margin-top: 10px;
 }
 .container1 .iamgen2 {
   grid-area: imagen2;
   margin: 100px;
 }
+.container1 .iamgen2 .texto {
+  text-align: center;
+  color: #25c8dd;
+  background-color: #0c0c0c;
+  margin-top: 10px;
+}
 .container1 .iamgen3 {
   grid-area: imagen3;
   margin: 100px;
 }
+.container1 .iamgen3 .texto {
+  text-align: center;
+  color: #25c8dd;
+  background-color: #0c0c0c;
+  margin-top: 10px;
+}
 .container1 .iamgen4 {
   grid-area: imagen4;
   margin: 100px;
+}
+.container1 .iamgen4 .texto {
+  text-align: center;
+  color: #25c8dd;
+  background-color: #0c0c0c;
+  margin-top: 10px;
 }
 
 .carousel {
@@ -118,6 +137,7 @@ h1 {
 .formulario {
   background: #e8e8e8;
   border-radius: 10%;
+  width: 50%;
 }
 .formulario h1 {
   text-align: center;
@@ -185,10 +205,12 @@ h1 {
 }
 
 .titulodescuento {
+  color: #25c8dd;
   text-align: center;
-  color: #2b206d;
-  text-decoration: underline;
-  margin: 110px 0 50px 0;
+  text-transform: uppercase;
+  background-color: #0d0e0e;
+  margin: 100px;
+  padding: 12px;
 }
 
 .imagen1 {
@@ -228,8 +250,10 @@ h1 {
 
 .subtitulodescu {
   background-color: rgb(44, 44, 44);
-  margin: auto;
+  margin: 30px;
   justify-content: center;
+  display: block;
+  padding: 10px 45px;
 }
 .subtitulodescu h2 {
   color: red;
@@ -258,12 +282,45 @@ h1 {
   color: white;
 }
 
-.nosotros-titulo {
-  text-align: center;
-  margin-top: 10rem;
+.promos {
+  display: flex;
+}
+
+.carddes {
+  margin: 10px 30px;
+  justify-content: center;
+  min-height: 50vh;
+  background-color: #cdd2d4;
+}
+
+.card-title {
+  font-size: 2rem;
+  padding: 10px;
   text-transform: uppercase;
+  color: #0c668a;
+}
+
+.card-text1 {
+  font-size: 25px;
+  text-decoration: line-through;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.card-text2 {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.nosotros-titulo {
   color: #25c8dd;
-  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #0d0e0e;
+  margin: 160px 100px auto 100px;
+  padding: 12px;
 }
 
 .sucursales {
@@ -306,19 +363,23 @@ h1 {
   margin-top: 9rem;
   text-transform: uppercase;
   color: #2832c8;
+  display: flex;
+  justify-content: center;
 }
 
 .mapa {
-  margin-top: 1rem;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .nombreprodu {
   color: #25c8dd;
   text-align: center;
   text-transform: uppercase;
-  background-color: #0d0e0e;
+  background-color: #0c0c0c;
   margin: 160px 100px auto 100px;
-  padding: 12px;
+  padding: 10px;
 }
 
 .losproductos {
@@ -395,6 +456,21 @@ h1 {
   .imagenpr {
     margin: 0 10px 10px 0 !important;
   }
+  .promos {
+    display: block;
+  }
+  .card-title {
+    font-size: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #0c668a;
+  }
+  .card-text1 {
+    font-size: 25px;
+  }
+  .card-text2 {
+    font-size: 25px;
+  }
   .subtitulodescu {
     padding: 20px;
     width: 100%;
@@ -410,7 +486,7 @@ h1 {
     color: #25c8dd;
   }
   .formulario {
-    width: 100%;
+    width: 90%;
   }
   .sucursales {
     display: contents;
